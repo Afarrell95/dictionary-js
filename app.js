@@ -43,7 +43,7 @@ btn.addEventListener("click", () => {
         </div>
         ${meaningsHTML}
       `;
-      sound.setAttribute("src", `https:${data[0].phonetics[0].audio}`);
+      sound.setAttribute("src", `${data[0].phonetics[0].audio}`);
     })
     .catch(() => {
       result.innerHTML = `<h3 class="error">Word not Found</h3>`;

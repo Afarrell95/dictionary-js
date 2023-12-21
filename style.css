@@ -9,9 +9,10 @@ body {
 }
 .container {
     background-color: #ffffff;
-    padding: 1em;
+    padding: 1.5em;
     margin: 1em;
     border-radius: 10px;
+    min-height: 80vh;
 }
 .search-box {
     width: 100%;
@@ -75,11 +76,4 @@ body {
 .error {
     margin-top: 80px;
     text-align: center;
-}
-
-@media screen and (max-width: 700px){
-    #result {
-        color: red;
-        
-    }
 }
